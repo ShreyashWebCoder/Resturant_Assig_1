@@ -7,6 +7,411 @@
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfRwRYXRCIWla_tE-EMtmbLJD3bm-CZm_KiNM88dvMut6YTr2-SWe9mU_3T-SGHSN61KoVJDb_bF4&usqp=CAU&ec=48665701">
     <link rel="stylesheet" href="AssgNo1.css">
 
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* HEADER */
+        .header {
+            width: 100%;
+            height: 60px;
+            background-color: #000000;
+            font-family: Segoe UI;
+
+        }
+
+        .container {
+            width: 80%;
+            height: 60px;
+            background-color: #000000;
+            margin-left: 10%;
+            display: inline-block;
+
+        }
+
+        .logo {
+            width: 150px;
+            height: 60px;
+            background-color: ;
+            color: white;
+            font-size: 40px;
+            font-family: Segoe UI;
+            font-weight: bold;
+            text-align: center;
+            line-height: 50px;
+            display: inline-block;
+
+        }
+
+        .navigation {
+            width: 40%;
+            height: 60px;
+            background-color: #000000;
+            display: inline-block;
+            margin-left: 40%;
+            line-height: 60px;
+            vertical-align: top;
+            font-size: 0px;
+
+        }
+
+        .nav {
+            font-size: 0px;
+            list-style-type: none;
+        }
+
+        .go {
+            color: cornsilk;
+            display: inline-block;
+            font-size: 20px;
+            width: 20%;
+            text-align: center;
+            line-height: 100%;
+
+        }
+
+        .banner {
+            width: 100%;
+            height: 50%;
+            background-color: white;
+            overflow: hidden;
+            
+        }
+
+        .img {
+            width: 100%;
+            height: 450px;
+            /* margin-bottom: 20px; */
+
+        }
+
+        .dishesh {
+            width: 100%;
+            background-color: azure;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            margin-top: -10px;
+            
+
+        }
+
+        .dish-container {
+            width: 80%;
+            height: 420px;
+            background-color: rgb(213, 208, 208);
+            margin-left: 10%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            /* display: inline-block; */
+            border-width: 2px;
+            border-color: #000000;
+            border-style:ridge;
+            
+
+        }
+
+        .dish {
+            width: 20%;
+            height: 400px;
+            background-color: white;
+            margin-left: 3.6%;
+            display: inline-block;
+            vertical-align: top;
+            border-width: 2px;
+            border-color: #000000;
+            border-style:ridge;
+
+        }
+
+        .dish_img {
+            width: 100%;
+            height: 35%;
+            /* text-align: center; */
+            /* margin:1%; */
+            /* border-image: black; */
+            /* border-image-width:30%; */
+            overflow: hidden;
+            
+
+        }
+
+        .dish_image {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+
+        }
+
+        .dish_info {
+            width: 100%;
+            background-color: white;
+            font-size: 16px;
+            font-family: Segoe UI;
+            padding: 15px;
+            box-sizing: border-box;
+
+        }
+
+        .dish_title {
+            margin-bottom: 10px;
+            font-weight: bold;
+            /* padding-bottom: 8px; */
+
+        }
+
+        .dish_para {
+            margin-bottom: 10px;
+            margin-top: 10px;
+
+
+        }
+
+        .dish_btn {
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #23c6c6;
+            color: white;
+            text-decoration: none;
+            margin-top: 30px;
+            /* display: inline-block; */
+
+        }
+
+
+
+        /* About Us */
+
+        .about {
+            width: 100%;
+            height: 420px;
+            /* background-color: red; */
+            box-sizing: border-box;
+            margin-top: -10px;
+
+
+        }
+
+        .about_container {
+            width: 80%;
+            height: 400px;
+            /* background-color: yellow; */
+            margin-left: 10%;
+            font-size: 0px;
+            /* display: inline-block; */
+
+        }
+
+        .about_img {
+            width: 50%;
+            height: 370px;
+            background-color: green;
+            display: inline-block;
+            box-sizing: border-box;
+            vertical-align: top;
+            overflow: hidden;
+
+        }
+
+        .about_image {
+            width: 100%;
+            overflow: hidden;
+            height: 370px;
+
+        }
+
+        .about_text {
+            width: 50%;
+            height: 400px;
+            /* background-color:blue ; */
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 20px;
+
+        }
+
+        .about_para {
+            font-family: Arial;
+            font-size: 16px;
+
+        }
+
+        .about_title {
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+
+        /* Gallary */
+
+        .gallary_block {
+            width: 100%;
+            height: 400px;
+            /* background-color: yellow; */
+            margin-top: -15px;
+            font-size: 0px;
+
+
+        }
+
+        .gallary_item {
+            width: 20%;
+            height: 200px;
+            /* background-color: red; */
+            /* border-image-outset: 1px; */
+            display: inline-block;
+            font-size: 0px;
+
+
+        }
+
+        .gallary_img {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            border-width: 2px;
+            border-color: #000000;
+            border-style:ridge;
+
+
+        }
+
+        .form_block {
+            width: 100%;
+            height: 460px;
+            background-color: #a2a0a0;
+            margin-top: -2px;
+            padding-top: 20px;
+            font-family: Segoe UI;
+
+        }
+
+        .form_container {
+            width: 47%;
+            height: 350px;
+            background-color: white;
+            margin-left: 23%;
+            padding: 30px;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-width: 2px;
+            border-color: #000000;
+            border-style:ridge;
+
+        }
+
+        .form_title {
+            font-size: 35px;
+            margin-bottom: 10px;
+
+        }
+
+        .form_inp {
+            width: 92%;
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            font-size: 15px;
+            box-sizing: border-box;
+            border-style: inset;
+            background-color: hsl(0, 5%, 85%);
+        }
+
+        /* b {
+            font-family: Segoe UI;
+            font-weight: normal;
+        } */
+
+        .form_btn {
+            width: 40%;
+            margin-left: 28%;
+            /* margin-bottom: 10px; */
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #23c6c6;
+            color: white;
+            /* text-decoration: none; */
+            /* display: inline-block; */
+            border-width: 2px;
+            border-color: #000000;
+            border-style:ridge;
+
+        }
+
+
+        /* FOOTER_SECTION */
+
+        .footer {
+            width: 100%;
+            height: 400px;
+            background-color: black;
+            margin-top: -20px;
+        }
+
+        .footer_container {
+            width: 80%;
+            height: 400px;
+            /* background-color: red; */
+            display: inline-block;
+            margin-left: 10%;
+            font-size: 0px;
+
+        }
+
+        .footer_item {
+            width: 32%;
+            height: 300px;
+            /* background-color:#000000; */
+            display: inline-block;
+            /* font-size: 0px; */
+            margin-left: 1%;
+            vertical-align: top;
+            font-size: 16px;
+            font-family: Segoe UI;
+
+        }
+
+        .footer_title {
+            font-size: 45px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 10px;
+
+        }
+
+        .footer_para {
+            font-size: 17px;
+            color: #d1caca;
+        }
+
+        .addr_title {
+            font-size: 25px;
+            color: white;
+            margin-bottom: 10px;
+
+        }
+
+        .addr_para {
+            font-size: 17px;
+            color: #d1caca;
+            margin-bottom: 10px;
+
+        }
+
+        .google_map {
+            height: 200px;
+            width: 100%;
+            color: white;
+
+
+        }
+    </style>
 </head>
 
 <body>
@@ -57,11 +462,9 @@
                     <font class="dish_title">
                         Punjabi FOOD
                     </font>
-                    <p class="dish_para">One of the most impressive things about Punjabi food is its variety. While meat
-                        lovers
-                        can never have enough of the evergreen Butter Chicken, Bhuna Gosht, Tandoori Chicken and
-                        Amritsari
-                        Machchi, vegetarian fare is equally delightful.
+                    <p class="dish_para">
+                        One of the most impressive things about Punjabi food. The evergreen Butter <br> Chicken.
+
 
                     </p>
 
@@ -85,9 +488,8 @@
                     <font class="dish_title">
                         Pav Bhaji FOOD
                     </font>
-                    <p class="dish_para">Pav Bhaji is a native Maharashtrian dish made with an assortment of mashed vegetables, pan-fried on 
-                        a large tawa and served with Pav toasted in butter. 
-                         Pav Bhaji is also a great way to feed fussy kids their share of veggies with a smile! 
+                    <p class="dish_para">
+                        Pav Bhaji is a native Maharashtrian dish made with an assortment of vegetables.
 
                     </p>
 
@@ -109,9 +511,9 @@
                     <font class="dish_title">
                         Pasta FOOD
                     </font>
-                    <p class="dish_para">This creamy, savory one-pot pasta dish comes together without the need to boil the pasta separately.
-                         Savory sautéed mushrooms and gently sweet leeks combine with cream, lemon juice, and white wine to create the rich sauce.
-                       
+                    <p class="dish_para">
+                        This savory one-pot pasta dish comes together without the need to boil <br> lemon juice.
+
 
                     </p>
 
@@ -133,9 +535,7 @@
                     <font class="dish_title">
                         Veg-Sandwich FOOD
                     </font>
-                    <p class="dish_para">There are many different sandwich recipes served in Mumbai city. 
-                        But this popular and delicious veg sandwich was one of my favorites during my college days.
-                         Whenever I forgot my lunch box, me and my friends would go to a sandwich stall
+                    <p class="dish_para">There are many different sandwich recipes served in Mumbai <br> city.
                     </p>
 
                     <a href="https://www.indianhealthyrecipes.com/veg-sandwich-recipe-vegetable-sandwich/">
@@ -153,19 +553,22 @@
     <section class="about">
         <div class="about_container">
             <div class="about_img">
-                <img class="about_image" src="https://img.freepik.com/free-vector/organic-flat-rustic-restaurant-menu-template-with-photo_52683-62703.jpg?w=2000">
+                <img class="about_image"
+                    src="https://img.freepik.com/free-vector/organic-flat-rustic-restaurant-menu-template-with-photo_52683-62703.jpg?w=2000">
             </div>
             <div class="about_text">
-                <p class="about_para"> <span class="about_title"> The </span> products are excellent, especially like the pecan cinnamon rolls.
-                    We also purchased a champagne cake a couple weeks ago for a birthday that was excellent. Give it a try you won`t be disappointed. 
-                    i recommend my friends and family. very fresh and delicious.Foodies are a distinct hobbyist group. Typical foodie interests and 
-                    activities include the food industry, wineries and wine tasting, breweries and beer sampling, food science, following restaurant 
-                    openings and closings and occasionally reopenings, food distribution, food fads, health and nutrition, cooking classes, culinary tourism, 
-                    and restaurant management. A foodie might develop a particular interest in a specific item, such as the best egg cream or burrito. Many publications
-                     have food columns that cater to foodies and many of the websites carrying the name foodie have become popular amongst the foodies.[6] Interest by 
-                     foodies in the 1980s and 1990s gave rise to the Food Network and other specialized food programming, popular films and television shows about food
-                      such as Top Chef and Iron Chef, a renaissance in specialized cookbooks, specialized periodicals such as Gourmet Magazine and Cook's Illustrated, growing
-                    popularity of farmers' markets, food-oriented websites like Zagat's and Yelp, publishing and reading food blogs like Foodbeast and foodieworld, specialized kitchenware.            </p>
+                <p class="about_para"> <span class="about_title"> The </span> products are excellent, especially like
+                    the pecan cinnamon rolls.
+                    We also purchased a champagne cake a couple weeks ago for a birthday that was excellent. Give it a
+                    try you won`t be disappointed.
+                    i recommend my friends and family. very fresh and delicious.Foodies are a distinct hobbyist group.
+                    Typical foodie interests and
+                    activities include the food industry, wineries and wine tasting, breweries and beer sampling, food
+                    science, following restaurant <br>
+                    openings and closings and occasionally reopenings, food distribution, food fads, health and
+                    nutrition, cooking classes, culinary tourism,
+                    and restaurant management.
+                </p>
             </div>
         </div>
 
@@ -177,53 +580,62 @@
         <div class="gallary_block">
             <!-- TOP -->
             <div class="gallary_item">
-                <img class="gallary_img" src="https://images2.alphacoders.com/862/862730.jpg">
+                <img class="gallary_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWJV39Gnhm9Fbx0ZLVmIqnhJsGxjzmCsKEgOpyeSndzQ&usqp=CAU&ec=48665701">
             </div>
 
             <div class="gallary_item">
-                <img class="gallary_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_OQhSlxC5r__r6Pjo_48Ida9YPXO0hKL2m3H1teDnHUQ1yF7PDxTG8eFs1YOi9i8ZR79Gl1l-z8&usqp=CAU&ec=48665701">
-
-            </div>
-
-            <div class="gallary_item">
-                <img class="gallary_img" src="https://media.istockphoto.com/id/1335052543/photo/waitress-serving-food-to-a-group-of-customers-at-a-restaurant.jpg?b=1&s=170667a&w=0&k=20&c=2lwWdhr6qs8bN6k7Lwjs3XB7XqeXer_WVh_MBiVbjDQ=">
+                <img class="gallary_img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_OQhSlxC5r__r6Pjo_48Ida9YPXO0hKL2m3H1teDnHUQ1yF7PDxTG8eFs1YOi9i8ZR79Gl1l-z8&usqp=CAU&ec=48665701">
 
             </div>
 
             <div class="gallary_item">
-                <img class="gallary_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScxWEyVbiHqmnBnMw0pwoZdYLXsMX6L4iLtiC-jKanxqCFBhcuV553c-mCkoNRjDyxzozW7nO7P-0&usqp=CAU&ec=48665701">
+                <img class="gallary_img"
+                    src="https://media.istockphoto.com/id/1335052543/photo/waitress-serving-food-to-a-group-of-customers-at-a-restaurant.jpg?b=1&s=170667a&w=0&k=20&c=2lwWdhr6qs8bN6k7Lwjs3XB7XqeXer_WVh_MBiVbjDQ=">
 
             </div>
 
             <div class="gallary_item">
-                <img class="gallary_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6UrRZyhNg89aOn8yKmiNYY8AiUEfAaoD4ccRMk73Qik5lR2-Yrg3jOl4N2VXjHpFW6QqJ_fpVqRc&usqp=CAU&ec=48665701">
+                <img class="gallary_img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScxWEyVbiHqmnBnMw0pwoZdYLXsMX6L4iLtiC-jKanxqCFBhcuV553c-mCkoNRjDyxzozW7nO7P-0&usqp=CAU&ec=48665701">
+
+            </div>
+
+            <div class="gallary_item">
+                <img class="gallary_img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6UrRZyhNg89aOn8yKmiNYY8AiUEfAaoD4ccRMk73Qik5lR2-Yrg3jOl4N2VXjHpFW6QqJ_fpVqRc&usqp=CAU&ec=48665701">
 
             </div>
 
 
             <!-- BOTTOM -->
             <div class="gallary_item">
-                <img class="gallary_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAucLlmIf4cWKZ31-tl_ZuM_lcEt_KPgzH-M-C30rTvg&usqp=CAU&ec=48665701">
+                <img class="gallary_img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAucLlmIf4cWKZ31-tl_ZuM_lcEt_KPgzH-M-C30rTvg&usqp=CAU&ec=48665701">
 
             </div>
 
             <div class="gallary_item">
-                <img class="gallary_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmSpSu0kCJjpRQB9AEW8XnzrPrVQCb9QV6NUUdaQ2U_Q&usqp=CAU&ec=48665701">
+                <img class="gallary_img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmSpSu0kCJjpRQB9AEW8XnzrPrVQCb9QV6NUUdaQ2U_Q&usqp=CAU&ec=48665701">
 
             </div>
 
             <div class="gallary_item">
-                <img class="gallary_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQioPNHZWvpaqg98vds5HtsL-EjySQ60NkG_HbJ5dAtIN84AaNj_2NAtmiSnBWiIYzQ5csbvikm_3Q&usqp=CAU&ec=48665701">
+                <img class="gallary_img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQioPNHZWvpaqg98vds5HtsL-EjySQ60NkG_HbJ5dAtIN84AaNj_2NAtmiSnBWiIYzQ5csbvikm_3Q&usqp=CAU&ec=48665701">
 
             </div>
 
             <div class="gallary_item">
-                <img class="gallary_img" src="https://wallup.net/wp-content/uploads/2019/09/761420-restaurant-food-architecture-interior-design-room.jpg">
+                <img class="gallary_img"
+                    src="https://wallup.net/wp-content/uploads/2019/09/761420-restaurant-food-architecture-interior-design-room.jpg">
 
             </div>
 
             <div class="gallary_item">
-                <img class="gallary_img" src="https://i.pinimg.com/236x/5d/c2/e1/5dc2e176711f3773c42cd5caaa01f306--paris-restaurants-paris-art.jpg">
+                <img class="gallary_img"
+                    src="https://i.pinimg.com/236x/5d/c2/e1/5dc2e176711f3773c42cd5caaa01f306--paris-restaurants-paris-art.jpg">
 
             </div>
         </div>
@@ -237,11 +649,11 @@
                 &#9733; <u>Order Your Food</u> &#9733;
             </h2>
             <form>
-                <b>Name:</b> <input class="form_inp" type="text" placeholder="Enter Full Name"> <br>
-                <b>E-mail:</b> <input class="form_inp" type="email" placeholder="Enter E-mail"> <br>
-                <b>Contact:</b> <input class="form_inp" type="number" placeholder="Enter contact number"> <br>
-                <b>Address:</b> <input class="form_inp" type="address" placeholder="Enter address"> <br>
-                <b>Dishes:</b> <select class="form_inp">
+               <input class="form_inp" type="text" placeholder="Enter Full Name" required> <br>
+                <input class="form_inp" type="email" placeholder="Enter E-mail" required> <br>
+                <input class="form_inp" type="number" placeholder="Enter contact number" required> <br>
+                <input class="form_inp" type="address" placeholder="Enter address" required> <br>
+                <select class="form_inp">
                     <option>Select Dish</option>
                     <option>Pav Bhaji</option>
                     <option>Pasta</option>
@@ -278,10 +690,7 @@
                 </iframe>
             </div>
         </div>
-<br><br>
-        <div>
-            <img src="https://www.delish.com/_assets/design-tokens/fre/static/icons/social/twitter.c52db9e.svg?primary=%2523ffffff">
-        </div>
+
     </footer>
 </body>
 
